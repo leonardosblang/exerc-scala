@@ -1,4 +1,8 @@
 
+object MyClass {
+   
+
+def main(args: Array[String]) {
 var num1 = scala.io.StdIn.readInt()
 var num2 = scala.io.StdIn.readInt()
 
@@ -19,4 +23,6 @@ for(i <- 0 to arr.length-1)
 for(i <- 0 to arr.length-1)
 {
   print(arr(i)+" ")
+}
+    }
 }
